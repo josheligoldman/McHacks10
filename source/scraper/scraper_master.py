@@ -2,6 +2,8 @@ import io
 import requests
 from PIL import Image
 from requests_html import HTMLSession
+import re
+import openai
 
 
 def construct_search_url(search_term):
@@ -77,7 +79,7 @@ def find_alt_text(alt_key, block):
     return block[start_index:counter-1]
 
 
-def find_pertinent_data(search_term):
+def find_pertinent_data(search_term, super_search):
     # The keys within the html
     image_key = "444383007"
     alt_text_key = "2008"
@@ -99,6 +101,25 @@ def find_pertinent_data(search_term):
         link, h, w = find_link_h_w_in_block(block)
         alt_text = find_alt_text(alt_text_key, block)
 
-        r_dict[search_term + str(num)] = {"image_link": link, "height": int(h), "width": int(w), "alt_text": alt_text}
+        r_dict[search_term + str(num)] = {"image_link": link, "height": int(h),
+                                          "width": int(w), "alt_text": alt_text,
+                                          "super_search": super_search}
 
     return r_dict
+
+
+def chat_gpt_subcategory_generation(super_search, sub_cat_count=10):
+    API_KEY_darturi = "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"
+
+    # Load API key
+    openai.api_key = API_KEY_darturi
+
+    response = openai.Completion.create(model="text-davinci-003",
+                                        prompt="Return a list of the " + str(sub_cat_count) + " most common types of " + super_search + " separated by commas. If there is no suitable answer return \"Error\"",
+                                        temperature=0, max_tokens=100)
+
+    if response == "Error":
+        return "Error"
+    return response["choices"][0]["text"].strip().split(",")
+
+
