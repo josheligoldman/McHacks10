@@ -1,3 +1,6 @@
+import asyncio
+import time
+
 from django.shortcuts import render
 
 # Create your views here.
@@ -8,25 +11,47 @@ from django.template import loader
 from .forms import AddClassForm
 
 
-def index(request):
-    template = loader.get_template('dashboard/index.html')
-    return HttpResponse(template.render({}, request))
-
-
-def get_class(request):
+def index_view(request):
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
         form = AddClassForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
-            cleaned_data = form.cleaned_data
-            print(cleaned_data)
-            return HttpResponseRedirect('')
+            if "add_class" in request.POST:
+                classes = request.session.get('classes', [])
+                classes.append(form.cleaned_data['added_class'])
+                request.session['classes'] = classes
+                print("Classes", request.session.get('classes', []))
+            else:
+                return HttpResponseRedirect('/build')
 
-    # if a GET (or any other method) we'll create a blank form
-    else:
-        form = AddClassForm()
+    context = {
+        'form': AddClassForm(),
+        'classes': request.session.get('classes', []),
+    }
 
-    return render(request, 'dashboard/index.html', {'form': form})
+    return render(
+        request,
+        'dashboard/index.html',
+        context
+    )
+
+
+def dataset_view(request):
+    dataset = build_dataset()
+
+    context = {
+
+    }
+
+    return render(
+        request,
+        'dashboard/build.html',
+        context,
+    )
+
+
+def build_dataset():
+    return 0
 
