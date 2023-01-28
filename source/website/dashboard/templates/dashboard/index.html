@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Clever Name</title>
-  </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <title>Clever Name</title>
+    </head>
+    <body>
+        <p>Hello, World!</p>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form }}
+        <input type="submit" value="Submit">
+</form>
+    </body>
 </html>
