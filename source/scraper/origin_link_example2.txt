@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://icatcare.org/app/themes/icc/favicon/apple-touch-icon.png?v=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://icatcare.org/app/themes/icc/favicon/favicon-32x32.png?v=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://icatcare.org/app/themes/icc/favicon/favicon-16x16.png?v=1">
+    <link rel="manifest" href="https://icatcare.org/app/themes/icc/favicon/manifest.json">
+    <link rel="mask-icon" href="https://icatcare.org/app/themes/icc/favicon/safari-pinned-tab.svg" color="#e73347">
+    <link rel="shortcut icon" href="https://icatcare.org/app/themes/icc/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="https://icatcare.org/app/themes/icc/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+		<!-- All in One SEO 4.2.0 -->
+		<title>Thinking of getting a cat? | International Cat Care</title>
+		<meta name="robots" content="max-image-preview:large" />
+		<link rel="canonical" href="https://icatcare.org/advice/thinking-of-getting-a-cat/" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/icatcare.org\/#website","url":"https:\/\/icatcare.org\/","name":"International Cat Care","description":"The ultimate resource on feline health and welfare","inLanguage":"en-US","publisher":{"@id":"https:\/\/icatcare.org\/#organization"}},{"@type":"Organization","@id":"https:\/\/icatcare.org\/#organization","name":"International Cat Care","url":"https:\/\/icatcare.org\/","logo":{"@type":"ImageObject","@id":"https:\/\/icatcare.org\/#organizationLogo","url":"https:\/\/icatcare.org\/app\/uploads\/2022\/05\/iCatCareWebBanner-2048x1024-2-1.jpeg","width":2048,"height":1024},"image":{"@id":"https:\/\/icatcare.org\/#organizationLogo"}},{"@type":"BreadcrumbList","@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/icatcare.org\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/icatcare.org\/","name":"Home","description":"The ultimate resource on feline health and welfare","url":"https:\/\/icatcare.org\/"},"nextItem":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#listItem"},{"@type":"ListItem","@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#listItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/","name":"Thinking of getting a cat?","url":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/"},"previousItem":"https:\/\/icatcare.org\/#listItem"}]},{"@type":"Person","@id":"https:\/\/icatcare.org\/author\/jo\/#author","url":"https:\/\/icatcare.org\/author\/jo\/","name":"Becky Scource","image":{"@type":"ImageObject","@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#authorImage","url":"https:\/\/secure.gravatar.com\/avatar\/b97b83f27bff8a8060201864f178119b?s=96&d=mm&r=g","width":96,"height":96,"caption":"Becky Scource"}},{"@type":"WebPage","@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#webpage","url":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/","name":"Thinking of getting a cat? | International Cat Care","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/icatcare.org\/#website"},"breadcrumb":{"@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#breadcrumblist"},"author":"https:\/\/icatcare.org\/author\/jo\/#author","creator":"https:\/\/icatcare.org\/author\/jo\/#author","image":{"@type":"ImageObject","@id":"https:\/\/icatcare.org\/#mainImage","url":"https:\/\/icatcare.org\/app\/uploads\/2018\/07\/Thinking-of-getting-a-cat.png","width":1200,"height":600},"primaryImageOfPage":{"@id":"https:\/\/icatcare.org\/advice\/thinking-of-getting-a-cat\/#mainImage"},"datePublished":"2018-09-30T23:00:00+01:00","dateModified":"2019-10-07T15:54:06+01:00"}]}
+		</script>
+		<script type="text/javascript" >
+			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+			ga('create', "UA-39813136-1", 'auto');
+			ga('send', 'pageview');
+		</script>
+		<script async src="https://www.google-analytics.com/analytics.js"></script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//js.stripe.com' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://icatcare.org/wp/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://icatcare.org/app/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.14' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='cookie-notice-css-css'  href='https://icatcare.org/app/plugins/gp_cookie_notice/assets/dist/css/main.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-notice-css-css'  href='https://icatcare.org/app/plugins/gp_popup/assets/dist/css/main.css?ver=1.0.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='give-styles-css'  href='https://icatcare.org/app/plugins/give/assets/dist/css/give.css?ver=2.19.8' type='text/css' media='all' />
+<link rel='stylesheet' id='give-donation-summary-style-frontend-css'  href='https://icatcare.org/app/plugins/give/assets/dist/css/give-donation-summary.css?ver=2.19.8' type='text/css' media='all' />
+<link rel='stylesheet' id='give-gift-aid-css'  href='https://icatcare.org/app/plugins/give-gift-aid/assets/css/give-gift-aid-frontend.min.css?ver=1.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='give_recurring_css-css'  href='https://icatcare.org/app/plugins/give-recurring/assets/css/give-recurring.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='customstyle-css'  href='https://icatcare.org/app/themes/icc/assets/css/style.min.css?ver=1.0.8' type='text/css' media='all' />
+<script src="https://icatcare.org/wp/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type='text/javascript' id='give-stripe-js-js-extra'>
+/* <![CDATA[ */
+var give_stripe_vars = {"zero_based_currency":"","zero_based_currencies_list":["JPY","KRW","CLP","ISK","BIF","DJF","GNF","KHR","KPW","LAK","LKR","MGA","MZN","VUV"],"sitename":"International Cat Care","checkoutBtnTitle":"Donate","publishable_key":"pk_live_Yr6AKaBmWJyPYnwMjcykjnTY","checkout_image":"","checkout_address":"on","checkout_processing_text":"Processing Donation...","give_version":"2.19.8","cc_fields_format":"multi","card_number_placeholder_text":"Card Number","card_cvc_placeholder_text":"CVC","donate_button_text":"Donate Now","element_font_styles":{"cssSrc":false},"element_base_styles":{"color":"#32325D","fontWeight":500,"fontSize":"16px","fontSmoothing":"antialiased","::placeholder":{"color":"#CCCCCC"},":-webkit-autofill":{"color":"#e39f48"}},"element_complete_styles":{},"element_empty_styles":{},"element_invalid_styles":{},"float_labels":"1","base_country":"GB","preferred_locale":"en"};
+/* ]]> */
+</script>
+<script src="https://js.stripe.com/v3/?ver=2.19.8" id="give-stripe-js-js"></script>
+<script src="https://icatcare.org/app/plugins/give/assets/dist/js/give-stripe.js?ver=2.19.8" id="give-stripe-onpage-js-js"></script>
+<script src="https://icatcare.org/wp/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+<script src="https://icatcare.org/wp/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://icatcare.org/wp/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c" id="wp-hooks-js"></script>
+<script src="https://icatcare.org/wp/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { "text direction\u0004ltr": [ "ltr" ] } );
+</script>
+<script type='text/javascript' id='give-js-extra'>
+/* <![CDATA[ */
+var give_global_vars = {"ajaxurl":"https:\/\/icatcare.org\/wp\/wp-admin\/admin-ajax.php","checkout_nonce":"8d4d32bec3","currency":"GBP","currency_sign":"\u00a3","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"<h3>Processing...<\/h3><p>This will only take a second!<\/p>","number_decimals":"2","is_test_mode":"","give_version":"2.19.8","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https:\/\/icatcare.org\/wp\/wp-admin\/admin-ajax.php","ajaxNonce":"63bb071e54","loading":"Loading","select_option":"Please select an option","default_gateway":"stripe","permalinks":"1","number_decimals":2},"cookie_hash":"436a6fae83a121b2019c87c019630bba","session_nonce_cookie_name":"wp-give_session_reset_nonce_436a6fae83a121b2019c87c019630bba","session_cookie_name":"wp-give_session_436a6fae83a121b2019c87c019630bba","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https:\/\/icatcare.org\/wp-json\/give-api\/v2\/","rest_base":"give-api\/v2"};
+/* ]]> */
+</script>
+<script id="give-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "give", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script src="https://icatcare.org/app/plugins/give/assets/dist/js/give.js?ver=15cdae8cb86a78d6" id="give-js"></script>
+<script type='text/javascript' id='give-gift-aid-js-extra'>
+/* <![CDATA[ */
+var give_gift_aid_vars = {"gift_aid_site_url":"https:\/\/icatcare.org\/wp","gift_aid_base_country":"GB"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/give-gift-aid/assets/js/give-gift-aid-frontend.min.js?ver=1.2.2" id="give-gift-aid-js"></script>
+<script type='text/javascript' id='give_recurring_script-js-extra'>
+/* <![CDATA[ */
+var Give_Recurring_Vars = {"email_access":"1","pretty_intervals":{"1":"Every","2":"Every two","3":"Every three","4":"Every four","5":"Every five","6":"Every six"},"pretty_periods":{"day":"Daily","week":"Weekly","month":"Monthly","quarter":"Quarterly","half-year":"Semi-Annually","year":"Yearly"},"messages":{"daily_forbidden":"The selected payment method does not support daily recurring giving. Please select another payment method or supported giving frequency.","confirm_cancel":"Are you sure you want to cancel this subscription?"},"multi_level_message_pre_text":"You have chosen to donate"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/give-recurring/assets/js/give-recurring.js?ver=1.9.2" id="give_recurring_script-js"></script>
+<link rel='shortlink' href='https://icatcare.org/?p=364' />
+<meta name="generator" content="Give v2.19.8" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://icatcare.org/app/uploads/2019/03/cropped-icatcare-icon-2-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://icatcare.org/app/uploads/2019/03/cropped-icatcare-icon-2-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://icatcare.org/app/uploads/2019/03/cropped-icatcare-icon-2-300x300.png" />
+<meta name="msapplication-TileImage" content="https://icatcare.org/app/uploads/2019/03/cropped-icatcare-icon-2-300x300.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*CSS for Header */
+.sites__nav {
+	display: none;
+}
+
+.other-site-cfc {
+	background-image: url('https://icatcare.org/app/uploads/2021/09/Cat-Friendly-Clinic-Logo-White.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	padding-left: 70px;
+}
+
+.other-site-ccfl {
+	background-image: url('https://icatcare.org/app/uploads/2021/09/Cat-Care-for-Life-Logo.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	padding-left: 70px;
+}
+
+/*CSS for Home Page */
+
+.banner--home {
+	display: none;
+}
+
+.page-id-16 .intro .container{
+	width: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.page-id-16 .intro{
+	margin-top: 0px;
+}
+
+.page-id-16 .intro__text a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.page-id-16 .intro__text a:hover{
+	color: #e5007d;
+	text-decoration: none;
+}
+
+.page-id-16 .intro__wrapper{
+	padding: 0px;
+	width: 100%;
+}
+
+.page-id-16 .intro__text{
+	margin: 0px !important;
+	max-width: 100%;
+}
+
+#intro {
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+/*CSS for ICD WebPage*/
+
+.page-id-86844 .col-md-8{
+	margin-left: auto !important;
+}
+
+.page-id-86844 .col-md-offset-2{
+	margin-left: 5% !important;
+}
+
+.page-id-86844 .countdown {
+	margin: auto;
+	width: 80% !important;
+	border: 10px solid #facce5 !important;
+	border-radius: 20px !important;
+	padding-top: 20px !important;
+}
+
+.page-id-86844 .content-block--two-column-content{
+	margin-top: 0px !important;
+	padding-left: 13.5% !important;
+	padding-right: 8% !important;
+}
+
+.page-id-86844 .col-md-6{
+	margin-bottom: 5% !important;
+}
+
+@media (min-width: 992px){
+.page-id-86844 .col-md-8 {
+    width: auto !important;
+}
+}
+
+@media (min-width: 768px) {
+	#icd-mobile{
+	display: none !important;
+}
+
+	#icd-mobile-homepage {
+		display: none !important;
+	}
+
+}
+
+@media (max-width: 768px){
+	#icd-table{
+		display: none !important;
+	}
+
+	.page-id-86844 .content-block--two-column-content{
+	margin-top: 0px !important;
+	padding-left: 5% !important;
+	padding-right: 2% !important;
+}
+
+	.page-id-16 .intro__wrapper {
+		max-width: 100% !important;
+}
+
+#intro {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+#banner-homepage h2, h3{
+		text-align: center !important;
+		padding-left: 0px !important;
+		width: 100% !important;
+	}
+
+}		</style>
+
+            </head>
+
+<body class="advice-template-default single single-advice postid-364 theme-icc give-recurring woocommerce-no-js">
+    <a href="https://icatcare.org" class="page-logo visible-xs visible-sm"><img src="https://icatcare.org/app/themes/icc/assets/images/icc_logo.png" alt="International Cat Care Logo"></a>
+
+            <a class="hidden-xs hidden-sm sites__nav" href="#">
+            <div class="labels">
+                <span class="default-label">Our Other Sites</span>
+                <span class="close-label">Close</span>
+            </div>
+        </a>
+
+    <div class="visible-xs visible-sm search-popup-trigger"><a href="#">Search</a></div>
+
+    <div class="menu-button visible-xs visible-sm">
+        <div class="menu-button__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="page-navigation__overlay"></div>
+    <header class="page-navs header float show">
+        <div class="page-top-bar">
+            <div class="container">
+                <div class="page-top-bar__wrapper">
+
+                                            <a class="sites__nav" href="#">
+                            <div class="labels">
+                                <span class="default-label">Our Other Sites</span>
+                                <span class="close-label">Close</span>
+                            </div>
+                        </a>
+
+
+
+                    <div class="lang-switcher">
+                        <div class="current"><span id="current-lang">ENG</span><i class="icon-angle-down"></i></div>
+                        <ul class="translation-links">
+                            <li data-lang="en" data-langen="English" style="background-position: 0 -0px;">English</li>
+                            <li data-lang="ar" data-langen="Arabic" style="background-position: 0 -928px;">Arabic</li>
+                            <li data-lang="bn" data-langen="Bengali" style="background-position: 0 -944px;">Bengali</li>
+                            <li data-lang="zh-CN" data-langen="Chinese" style="background-position: 0 -48px;">Chinese</li>
+                            <li data-lang="hr" data-langen="Croatian" style="background-position: 0 -80px;">Croatian</li>
+                            <li data-lang="cs" data-langen="Czech" style="background-position: 0 -96px;">Czech</li>
+                            <li data-lang="da" data-langen="Danish" style="background-position: 0 -112px;">Danish</li>
+                            <li data-lang="nl" data-langen="Dutch" style="background-position: 0 -128px;">Dutch</li>
+                            <li data-lang="fi" data-langen="Finnish" style="background-position: 0 -144px;">Finnish</li>
+                            <li data-lang="fr" data-langen="French" style="background-position: 0 -160px;">French</li>
+                            <li data-lang="de" data-langen="German" style="background-position: 0 -176px;">German</li>
+                            <li data-lang="el" data-langen="Greek" style="background-position: 0 -192px;">Greek</li>
+                            <li data-lang="iw" data-langen="Hebrew" style="background-position: 0 -416px;">Hebrew</li>
+                            <li data-lang="hi" data-langen="Hindi" style="background-position: 0 -208px;">Hindi</li>
+                            <li data-lang="hu" data-langen="Hungarian" style="background-position: 0 -608px;">Hungarian</li>
+                            <li data-lang="id" data-langen="Indonesian" style="background-position: 0 -432px;">Indonesian</li>
+                            <li data-lang="it" data-langen="Italian" style="background-position: 0 -224px;">Italian</li>
+                            <li data-lang="ja" data-langen="Japanese" style="background-position: 0 -240px;">Japanese</li>
+                            <li data-lang="ko" data-langen="Korean" style="background-position: 0 -256px;">Korean</li>
+                            <li data-lang="no" data-langen="Norwegian" style="background-position: 0 -272px;">Norwegian</li>
+                            <li data-lang="pl" data-langen="Polish" style="background-position: 0 -288px;">Polish</li>
+                            <li data-lang="pt" data-langen="Portuguese" style="background-position: 0 -304px;">Portuguese</li>
+                            <li data-lang="ru" data-langen="Russian" style="background-position: 0 -336px;">Russian</li>
+                            <li data-lang="es" data-langen="Spanish" style="background-position: 0 -352px;">Spanish</li>
+                            <li data-lang="sv" data-langen="Swedish" style="background-position: 0 -368px;">Swedish</li>
+                            <li data-lang="tr" data-langen="Turkish" style="background-position: 0 -656px;">Turkish</li>
+                            <li data-lang="cy" data-langen="Welsh" style="background-position: 0 -752px;">Welsh</li>
+                        </ul>
+
+                        <!-- Code provided by Google -->
+                        <div id="google_translate_element" style="display: none "></div>
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                    pageLanguage: 'en',
+                                    autoDisplay: false
+                                }, 'google_translate_element');
+                            }
+                        </script>
+                        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+                    </div>
+
+                    <nav>
+                        <ul id="menu-top-menu" class="menu"><li id="menu-item-99164" class="other-site-cfc menu-item menu-item-type-custom menu-item-object-custom menu-item-99164"><a href="https://catfriendlyclinic.org/">Cat Friendly Clinic</a></li>
+<li id="menu-item-99165" class="other-site-ccfl menu-item menu-item-type-custom menu-item-object-custom menu-item-99165"><a href="https://www.catcare4life.org/">Cat Care For Life</a></li>
+<li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860"><a href="https://icatcare.org/shop/">Shop</a></li>
+<li id="menu-item-353" class="button menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="https://icatcare.org/support-us/donate/">Donate</a></li>
+</ul>                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="page-navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-left">
+                        <a href="https://icatcare.org" class="page-logo visible-md visible-lg"><img src="https://icatcare.org/app/themes/icc/assets/images/icc_logo.png" alt="International Cat Care Logo"></a>
+                    </div>
+                    <div class="col-md-9">
+                        <nav class="main-nav">
+                            <ul id="menu-main-menu" class="menu"><li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-54"><a href="https://icatcare.org/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343"><a href="https://icatcare.org/our-campaigns/">Our Campaigns</a></li>
+	<li id="menu-item-1493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1493"><a href="https://icatcare.org/about/our-history/">Our History</a></li>
+	<li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="https://icatcare.org/about/our-awards/">Our Awards</a></li>
+	<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="https://icatcare.org/about/meet-the-team/">Meet the Team</a></li>
+	<li id="menu-item-33748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33748"><a href="https://icatcare.org/about/our-expert-panel/">Our Expert Panels</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="https://icatcare.org/about/friends-partners/">Friends &#038; Partners</a></li>
+	<li id="menu-item-344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344"><a href="https://icatcare.org/about/careers-with-us/">Careers with Us</a></li>
+	<li id="menu-item-91327" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91327"><a href="https://icatcare.org/app/uploads/2022/10/Annual-Review-Design-File-digital-comp.pdf">Annual Review</a></li>
+	<li id="menu-item-98483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98483"><a href="https://icatcare.org/contact/">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-52"><a href="https://icatcare.org/support-us/">Support Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="https://icatcare.org/support-us/donate/">Make a donation</a></li>
+	<li id="menu-item-1629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1629"><a href="https://icatcare.org/support-us/join-us/">Join Us</a></li>
+	<li id="menu-item-1583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1583"><a href="https://icatcare.org/support-us/cat-cocktail-parties/">Cat Cocktail Parties</a></li>
+	<li id="menu-item-350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-350"><a href="https://icatcare.org/support-us/leave-a-legacy/">Leave a Legacy</a></li>
+</ul>
+</li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53"><a href="https://icatcare.org/advice/">Cat Owners &#038; Caregivers</a>
+<ul class="sub-menu">
+	<li id="menu-item-103566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103566"><a href="https://icatcare.org/advice/?per_page=12">Cat Care Advice</a></li>
+	<li id="menu-item-80333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80333"><a href="https://icatcare.org/advice-cat-carer-guides/">Cat Carer Guides</a></li>
+	<li id="menu-item-90278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90278"><a href="https://icatcare.org/inhaler-training/">Inhaler training</a></li>
+	<li id="menu-item-104426" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104426"><a href="https://portal.icatcare.org/courses/category/1634033b-d110-4e35-ac9e-d3e1cd9432ef">Courses</a></li>
+</ul>
+</li>
+<li id="menu-item-41881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-41881"><a href="https://icatcare.org/unowned-cats/">Unowned Cats</a>
+<ul class="sub-menu">
+	<li id="menu-item-41889" class="menu-item menu-item-type-post_type_archive menu-item-object-unowned-cats menu-item-41889"><a href="https://icatcare.org/unowned-cats/">Cat Friendly Solutions for Unowned Cats</a></li>
+	<li id="menu-item-41884" class="menu-item menu-item-type-post_type menu-item-object-unowned-cats menu-item-41884"><a href="https://icatcare.org/unowned-cats/helping-unowned-cats/">Why we are helping</a></li>
+	<li id="menu-item-41885" class="menu-item menu-item-type-post_type menu-item-object-unowned-cats menu-item-41885"><a href="https://icatcare.org/unowned-cats/the-different-needs-of-domestic-cats/">The different needs of cats</a></li>
+	<li id="menu-item-41886" class="menu-item menu-item-type-post_type menu-item-object-unowned-cats menu-item-41886"><a href="https://icatcare.org/unowned-cats/feral-street-cats/">Feral and street cats</a></li>
+	<li id="menu-item-41887" class="menu-item menu-item-type-post_type menu-item-object-unowned-cats menu-item-41887"><a href="https://icatcare.org/unowned-cats/cat-friendly-homing/">Cat Friendly Homing</a></li>
+	<li id="menu-item-104427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104427"><a href="https://portal.icatcare.org/courses/category/6bca20bf-63cc-461a-964a-7bbea19ee70a">Courses</a></li>
+</ul>
+</li>
+<li id="menu-item-1658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1658"><a href="https://icatcare.org/veterinary/">Vets &#038; Nurses</a>
+<ul class="sub-menu">
+	<li id="menu-item-104458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104458"><a href="https://icatcare.org/veterinary/isfm/">About ISFM</a></li>
+	<li id="menu-item-103879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103879"><a href="https://isfm-members.net/">Vet Membership</a></li>
+	<li id="menu-item-104455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104455"><a href="https://icatcare.org/veterinary/isfm/nurse-membership/">Nurse Membership</a></li>
+	<li id="menu-item-102190" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102190"><a href="https://portal.icatcare.org/courses/available">Courses</a></li>
+	<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="https://icatcare.org/events/">Webinars</a></li>
+	<li id="menu-item-7458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7458"><a href="https://icatcare.org/veterinary/resources/">Free Support</a></li>
+	<li id="menu-item-104327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104327"><a href="https://icatcare.org/events/isfmcongress/">Congress</a></li>
+</ul>
+</li>
+<li id="menu-item-104389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104389"><a href="https://icatcare.org/events/isfmcongress/">Congress</a></li>
+<li id="menu-item-105382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105382"><a href="https://icatcare.org/international-cat-day/">International Cat Day</a></li>
+<li id="menu-item-84" class="search overlay__button--overlay-search menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="#">Search</a></li>
+</ul>                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="form search-bar" id="search-submit-form" method="get" action="https://icatcare.org">
+                <div class="container">
+                    <div class="search-bar__inner">
+                        <input type="text" class="text-input" name="s" placeholder="Search..." value="">
+                        <button type="submit" class="search-btn"><i class="icon-search"></i></button>
+                        <button type="button" id="search-close"><i class="icon-close"></i></button>
+                    </div>
+                </div>
+            </form>
+
+        </nav>
+    </header>
+
+            <div class="sites__container">
+            <div class="sites__inner">
+                <div class="sites__close"></div>
+                <div class="container">
+                    <h3 class="h4">Our Other Sites</h3>
+                    <ul>
+                                                    <li>
+                                <a target="_blank" title="Cat Friendly Clinic" href="https://catfriendlyclinic.org">
+                                    <img alt="Cat Friendly Clinic" src="https://icatcare.org/app/uploads/2019/05/cfc-white.png" />
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" title="Cat Care for Life" href="https://www.catcare4life.org/">
+                                    <img alt="Cat Care for Life" src="https://icatcare.org/app/uploads/2019/05/cc4l.png" />
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+        <div class="search-layer"></div><article class="post-view" itemscope itemtype="http://schema.org/Article">
+    <div class="banner banner--default">
+    <div class="banner__image">
+            </div>
+    <div class="banner__content-wrapper">
+        <div class="container">
+            <div class="banner__content text-align-left">
+                                            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <header class="post-view__header">
+            <div class="post-view__info">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-push-1 ">
+                                                <a href="https://icatcare.org/advice/" class="btn btn--back">Back</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-push-1 col-lg-8 col-lg-push-2">
+                        <h1 class="post-view__title" itemprop="headline">Thinking of getting a cat?</h1>
+
+                        <div class="post-view__meta">
+
+                            <meta itemprop="author" content="International Cat Care">
+                            <meta itemprop="datePublished" content="01 October 2018">
+                            <meta itemprop="dateModified" content="07 October 2019">
+                            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                                <meta itemprop="logo" content="https://icatcare.org/app/themes/icc/assets/images/logo.jpg">
+                                <meta itemprop="name" content="International Cat Care">
+                            </div>
+                            <meta class="sr-only" itemprop="image" content="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png">
+
+                            <p class="post-view__date">01st October 2018 </p>
+                                                        <span class="category"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+                            <div class="row">
+                    <div class="col-lg-10 col-lg-push-1 ">
+                        <img width="1200" height="600" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" class="attachment-post-banner size-post-banner" alt="Thinking of getting a cat?" loading="lazy" srcset="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png 1200w, https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat-300x150.png 300w, https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat-768x384.png 768w, https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat-800x400.png 800w" sizes="(max-width: 1200px) 100vw, 1200px" />                    </div>
+                </div>
+                    </header>
+        <div class="row single-advice-row">
+            <div class="single-advice-content-col col-md-7 col-md-offset-1 col-lg-6 col-lg-offset-2">
+                <div class="cms-content" itemprop="articleBody">
+                    <p>Having a cat can mean different things to different people. Some want a cat to cuddle and sit on their laps; others are happy to live with a very independent cat which spends most of its time outside and doesn’t want too much human interaction.</p>
+<p>What is important is that you try to find a cat that will interact with you if you want it to. All cats are not the same and how each individual cat behaves with you can depend on its inherent personality and early experiences (or lack of experiences), which can make it fearful or confident with people and life in general.</p>
+<p>The environment in which you keep a cat is also extremely significant &#8211; for example if it lives with many other cats which do not get on, then it will be stressed and will react differently than if it was on its own.</p>
+<p>While there is no guaranteed way to choose the perfect cat for you and your lifestyle, understanding your expectations as well as what makes cats tick will help you to bring home a cat that should be able to cope with its new environment and be the pet that you want too.</p>
+<h4 class="boxout">To care for a cat you will need to:</h4>
+<ul class="boxout">
+<li>Provide plenty of human companionship</li>
+<li>Provide regular, suitable meals with a constant supply of fresh water</li>
+<li>Provide a clean and comfortable bed</li>
+<li>Provide the cat with outdoor access or be prepared to empty and clean a litter tray on a daily basis</li>
+<li>Provide it with a stimulating and safe environment</li>
+<li>Groom it regularly. Longhaired cats require daily grooming</li>
+<li>Have it neutered between 4 and 6 months old</li>
+<li>Vaccinate against the major feline diseases regularly</li>
+<li>Worm regularly and provide treatment for fleas</li>
+<li>Take the cat to the vet when it shows any sign of illness</li>
+<li>Insure your cat or make sure you can afford the cost of any veterinary treatment it may need</li>
+</ul>
+<h2>How much care and attention does a cat need?</h2>
+<p>As pets go, cats are relatively low maintenance compared to dogs which need companionship, walking, training etc. However, like any pet, they do need care, and some cats need more care than others. Do you want to spend a lot of time with your cat, do you want it to be demanding, or do you have limited time? Cats can fit into busy, modern lifestyles more easily than dogs, as they are pretty independent, can be left alone much more easily and are more suitable for smaller flats or houses. Cats are often chosen by people who have busy and stressful lifestyles and who want some companionship when they go home to relax.</p>
+<p>What do you want from your relationship with a cat? If you’re the kind of person who really needs to have a close relationship with your cat and to be able to handle it and have it interact with you, then you’ll be disappointed if you take on a nervous cat that hides every time you come into the room. You may want to think about one of the pedigree breeds which can be more interactive and perhaps more needy of human company than some moggies. This may however become a problem for the cat if you are out at work all day and only available to give attention on evenings or weekends.</p>
+<p>Some cats need to know exactly what’s going to happen when, in order to feel relaxed. Such cats would be quite happy living with an old lady who rarely has visitors and leads a very quiet life, but would probably find it quite stressful living in a home full of kids and other animals with lots of visitors and activity. Other cats, however, might thrive on different interactions with lots of people and fit in perfectly well in a busy household.</p>
+<p>If you’re not likely to have the time or inclination to groom a cat on a daily basis, don’t even think of getting a Persian or a cat with a long coat. In pedigree jargon, any cat with a longer coat, aside from a Persian, is called semi-longhaired because the coat is not as full as the Persian’s and does not have such a thick undercoat; however, it is still long and requires grooming. In addition, if you are extremely house-proud, you may not want lots of hair everywhere.</p>
+<p>A shorthaired cat is a much easier option, as most cats are fanatical about their coats and keep them in immaculate condition. That’s not to say that they don’t leave hairs around – bear this in mind if you’re thinking of getting a white cat but have dark furniture, or vice versa. Likewise, a cat is quite likely to sharpen its claws indoors, often on the stair carpet, sometimes on the furniture or even on the wallpaper. Whether your cat does this can depend on the cat itself and also the environment you provide for it; however there are things you can do to try and deal with this, but it is best to acknowledge from the outset that your cat is an animal with free will and natural behaviour that may not suit someone who needs to have an immaculate house.</p>
+<h2>Can I keep a cat on vegetarian food?</h2>
+<p>Are you a vegetarian and want your cat to be one too? If you want a vegetarian pet that won’t challenge your beliefs, then it would be better to get a rabbit – a cat is a carnivore first and foremost, and looks and behaves as it does for just this reason.  A cat is what is called an obligate carnivore – it has an absolute need for some of the nutrients found in meat and all of its senses of smell and taste are atuned to being a carnivore – it would be unfair and very dangerous to health to even attempt keeping it as a vegetarian.<br />
+<a href="https://icatcare.org/advice/feeding-your-cat-or-kitten/">Feeding your cat or kitten</a></p>
+<h2>Is there a type of cat which doesn’t hunt?</h2>
+<p>You may have a great aversion to your cat hunting outside. Perhaps you are a bird lover, or are simply unable to deal with small carcases on the floor. Hunting is normal behaviour for cats. Keeping a cat indoors may prevent it actually killing anything, but it will still need an outlet for this, its most instinctive behaviour, and not all cats will be happy with an indoor lifestyle. Likewise, if you’re simply getting a cat to keep vermin at bay, you won’t want to find yourself with one which isn’t especially interested in huntin’, shootin’ and fishin’ and prefers being a couch potato! Older cats are likely to hunt much less than younger ones and some cats don’t bother at all, but there is no easy way to know how a cat will behave.</p>
+<h2>Can I keep a cat indoors?</h2>
+<p>If you think about the lifestyle of a cat which has access outdoors you will realise that being outdoors brings a huge variety to its life and allows it to use all of its hunting behaviours if it wants to. Of course, there are risks outside for cats, but you need to balance these with the very positive aspects of physical and mental stimulation and an outlet for natural behaviour.<br />
+<a href="https://icatcare.org/indoor-only-or-outdoor-access/">Indoors versus outdoors</a></p>
+<h2>Can I have a cat with a baby or young children?</h2>
+<p>There is no reason not to have a cat or kitten if you have children.  It is up to parents to teach their children from the very beginning how to approach, stroke and handle cats and to treat them kindly.  Many children have fantastic relationships with their cats and learn about respecting other creatures and being gentle – it is done successfully all the time, but it is up to parents to lay down the rules. Perhaps taking on a new kitten when you have a new baby or a toddler might be a lot to handle at once, so ensuring you have time for all the parties is part of a successful relationship. Likewise, if you are pregnant there is no need to get rid of the cat. Simple and basic hygiene precautions and common sense management of the cat, while the baby is small, can ensure all cohabit happily and safely.</p>
+<h2>Should I get an adult cat or a kitten?</h2>
+<p>A kitten gives you the opportunity to take on an animal right from the beginning and treat it and care for it so that it gets the best start in life. You will also be able to get some idea of its character. However, kittens require a lot of attention and some forethought to prevent them from getting into trouble. If you leave them alone you have to make sure they will be safe while you are away. You may also have to organise neutering, initial vaccinations and so on, depending on where you get your kitten from.<br />
+<a href="https://icatcare.org/advice/where-to-get-your-cat-or-kitten/">Where to get a cat or kitten and what to ask</a></p>
+<p>While kittens have a huge ‘cute’ factor, it is worth remembering that they don’t stay kittens for very long – just six months out of a potential 14 years or more.</p>
+<p>With adult cats, it is at least clear if they are long or short haired.  You should be able to get a good idea of a cat’s personality, although if it is being kept in less than ideal circumstances and is stressed or frightened it may act very differently compared to when it is relaxed. A confident adult cat is likely to move in and settle down quite quickly; a nervous one may take more time. It will be much easier to leave an older cat alone in the knowledge that it is not going to get itself into trouble, and it will generally be much less hard work and worry than a kitten. An adult cat will probably already be neutered and vaccinated.<br />
+<a href="https://icatcare.org/advice/choosing-an-adult-cat/">Choosing an adult cat and where to get one</a></p>
+<h2>What sex of cat should I get?</h2>
+<p>The sex of a kitten doesn’t really matter, as long as you neuter your kitten before it reaches puberty (at about four months of age) when the influence of sex hormones kick in. Un-neutered cats may exhibit unwelcome reproductive behaviours. For example, un-neutered male cats will mark their territory with strong smelling urine while un-neutered female cats can come into season every two weeks if they do not become pregnant.</p>
+<p>If you are getting just one cat or kitten, it doesn’t matter which sex you choose. Equally, if you want two kittens and you are getting two from the same litter, the sex of either cat is probably not important. However, if you have a resident cat and are getting just one kitten or another cat, it may be worth considering going for one of the opposite sex to try and remove some of the competition factor. A kitten may be a better option than another adult cat in such cases as the young cat’s immaturity seems to remove this competition factor &#8211; for a while anyway during which time you hope they will get to like each other! Neutering also removes the need for so much competition and makes the choice of sex much less important.<br />
+<a href="https://icatcare.org/advice/how-to-tell-the-sex-of-a-kitten/">How to tell what sex a kitten is</a></p>
+<h2>Should I choose a specific breed or moggie?</h2>
+<p>The majority of cats kept as pets are what we call moggies or domestic short or long haired cats – that is they are a random mixture of lots of different cats, we have often have little idea about their parentage (well the father anyway). This means we have no control over the colour, body shape, coat length or anything else that the kittens can inherit from their parents. So, for example, if your kitten is from a moggie mum but its father is unknown, it may develop a longer coat than you desire if the father was indeed longhaired.</p>
+<p>There is more to choosing a pedigree cat than just liking a certain coat colour or length – there are ethical considerations with some breeds if you really want to consider the cat’s welfare.  There are also health issues which you need to check with the breeder and things you need to ask. Good breeders aim to breed healthy, people-friendly cats and avoid (or seek to deal with) inherited disorders which arise.<br />
+<a href="https://icatcare.org/advice/what-about-a-pedigree/">Pedigree cats – things to consider</a></p>
+<h2>What breed of cat should I choose?</h2>
+<p>There are many different breeds, some of which will require extra care and attention, for example if they have a very long coat or even no coat at all. (See our <a href="https://icatcare.org/advice/?per_page=12&amp;categories=cat-breeds">A-Z of cat breeds</a>). Some pedigree cats are more people orientated and may not like to be left alone for long periods. If you are out all day at work it may be worth getting two kittens together for company – do your research about the breed you are interested in. Always make sure that health comes first, no matter what the ‘look’.<br />
+<a href="https://icatcare.org/advice/choosing-a-kitten/">How to choose a kitten</a></p>
+<h2>Can I have a cat if I have a dog?</h2>
+<p>If you have other pets there should not be a problem in getting a cat, but you just need to make sure that you take everything into consideration.  If you have a dog you just need to make sure that you make introductions carefully so that your new cat is not chased or injured while the dog gets used to it. Not all dog types make good companions for cats.<a href="https://icatcare.org/advice/introducing-a-cat-or-kitten-to-your-dog/"><br />
+How to introduce a new cat or kitten to a resident dog</a></p>
+<h2>How many cats can I have together?</h2>
+<p>It’s very easy to ‘collect’ cats – they’re addictively beautiful, they’re small and they’re quite easy to care for. Even if they don’t get on, they tend to remove themselves from the situation rather than fight. However, there may be a great deal of tension between cats which owners just don’t pick up on. Cats originate from a largely solitary species and although they can live in groups these are usually related individuals or are self-selected so that cats are not sharing space with cats that they don’t get on with. Cats may start to spray or soil in the house because they’re trying to deal with a situation where they feel under stress because of other cats, and this might be all that owners notice.</p>
+<p>If you have two cats living together very successfully then think very carefully before you add more. If you have three cats living well together then thank your stars and quit while you’re ahead! The trouble with adding more is that it might not be just the relationship between the resident cats and the new one that causes problems; it may upset the whole equilibrium of the resident cats’ relationship and introduce difficulties even between the original cats as tension and stress levels rise. Any new cat needs careful introduction.<br />
+<a href="https://icatcare.org/advice/introducing-a-kitten-to-your-cat/">How to introduce a new adult cat to your cat</a>.</p>
+<p>The best way to have two compatible cats is to choose siblings. These will have grown up together, and this usually bodes well for a good future relationship (although never guaranteed!).</p>
+<h2>What does it cost to keep a cat?</h2>
+<p>If you are buying a pedigree cat then there will be associated costs and these may be quite large. Pedigree kittens usually come vaccinated and in some cases already neutered. If you are getting a cat from a rescue organisation then they may ask for a donation or a fee and again it will probably come already neutered and vaccinated. Kittens or cats from friends or neighbours don’t usually come neutered or vaccinated, wormed, treated for fleas or anything else and it will be up to you to register with a vet and get these things done. Neutering is obviously a one-off cost, but several vaccinations will be required to make sure that a kitten is protected from infectious diseases; thereafter a regular booster vaccination will help to protect it during its life (requirements depend on the cat’s lifestyle and risks associated with that – your vet can advise you).  Then there is food, preventive health care regarding treatment for fleas and ticks and worms, cat litter if you want or need an indoor litter tray, beds and grooming equipment if you take on a longhaired cat. Microchipping is also recommended in case your cat goes missing. We recommend that you also insure your cat so that if an accident or illness happens then you do not have to worry about the costs. Choose your insurance carefully to make sure you get what you expect or need.</p>
+<h2>I am allergic to cats – is there any breed which is better than others?</h2>
+<p>Many people think it’s a cat’s hair that causes us to react to them by sneezing, wheezing or itching. In fact it’s a protein or allergen called Fd1, present in feline saliva, which causes the allergy. Because cats groom themselves regularly they have saliva all over their coat.  This dries on the coat and when the cat scratches, moves or brushes past objects the dust or dander and the hairs which contain the allergen are spread about. Cat-lovers who really want to have a cat but are allergic sometimes think that by choosing a breed with less, little or no coat they can avoid the problem. However, as it is saliva that causes the problem, this is unlikely to help, and although longhaired cats do seem to cause more allergic reactions that’s probably only because, having more hair, they’re also covered with more allergen.</p>
+<p>It’s worth trying out different cats by visiting friends with cats to see if they elicit less of an allergic reaction. Unfortunately it’s a very difficult problem to get around for people who react or who have family members who are allergic.</p>
+<h2>What should I do with my cat when I go on holiday?</h2>
+<p>If you go away on holiday you also need to consider who is going to look after your cat.  If you are only away for a day or two you can ask a neighbour to pop in and feed it and check it is OK. If you are away for more than this you may want to consider a boarding cattery, as many cats may wander looking for company.  If you have a nervous cat it may hide when the feeder comes and he or she may not be able to be sure that everything is all right. A good boarding cattery will keep your cat safe and you can relax while you are away. There are bad boarding catteries however.<br />
+<a href="https://icatcare.org/advice/choosing-a-boarding-cattery/">How to choose a good boarding cattery</a></p>
+<h2>When should I get a new cat?</h2>
+<p>If you are considering getting a new cat or kitten, choose a time when it is quiet in your house (not in the middle of a family celebration etc) and perhaps when you have a day or two when you can help it to settle in and be there while it finds its way around, not just before you go on holiday etc.</p>
+<h2>Where do I get a cat from and how do I choose it?</h2>
+<p>Once you have thought about the responsibilities and costs of keeping a cat and what type you want, then consider <a href="https://icatcare.org/advice/where-to-get-your-cat-or-kitten/">where you are going to get it</a> and how you are going to <a href="https://icatcare.org/advice/choosing-a-kitten/">choose your cat or kitten</a>.</p>
+<hr />
+<p><img loading="lazy" class="alignright wp-image-6553" src="https://icatcare.org/app/uploads/2019/09/The-Kitten-Checklist.png" alt="" width="314" height="444" srcset="https://icatcare.org/app/uploads/2019/09/The-Kitten-Checklist.png 500w, https://icatcare.org/app/uploads/2019/09/The-Kitten-Checklist-212x300.png 212w" sizes="(max-width: 314px) 100vw, 314px" /></p>
+<h2>The Kitten Checklist</h2>
+<p>The Kitten Checklist has been put together by 20 animal and veterinary organisations, to help you make an informed decision when choosing a kitten. It will help you find a healthy, friendly kitten and avoid some of the pitfalls which can occur.</p>
+<p><a href="https://icatcare.org/app/uploads/2019/09/The-Kitten-Checklist.pdf">View/download The Kitten Checklist</a></p>
+                                            <div class="advice-single-donate advice-block advice-block--sticky no-thumb">
+                            <div class="advice-block__link">
+                                <h3>Thank you for visiting our website, we hope you have found our information useful. </h2>
+                                    <p>All our advice is freely accessible to everyone, wherever you are in the world. However, as a charity, we need your support to enable us to keep delivering high quality and up to date information for everyone. Please consider making a contribution, big or small, to keep our content free, accurate and relevant.</p>
+<p>Support International Cat Care from as little £3</p>
+<p>Thank you.</p>
+                                    <a class="btn btn--small" href="https://icatcare.org/support-us/donate/" >Donate Now</a>                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="single-advice-sidebar-col col-md-3 col-md-offset-1">
+                <div class="single-advice-sidebar">
+                    <div class="share">
+                        <h2 class="h5 shocial-share-title--post">Spread the Word</h2>
+                                                <div class="social-share social-share--post">
+                            <ul class="social-share__list">
+                                                                <li class="social-share__item">
+                                    <a class="icon-twitter" title="Share on Twitter" target="_blank" href="https://twitter.com/intent/tweet?text=Thinking+of+getting+a+cat%3F+-+https%3A%2F%2Ficatcare.org%2Fadvice%2Fthinking-of-getting-a-cat%2F"> <span>Twitter</span></a>
+                                </li>
+                                                                <li class="social-share__item">
+                                    <a class="icon-facebook-square" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ficatcare.org%2Fadvice%2Fthinking-of-getting-a-cat%2F" title="Share on Facebook" target="_blank"> <span>Facebook</span></a>
+                                </li>
+                                                                <li class="social-share__item">
+                                    <a class="icon-linkedin-square" title="Share on LinkedIn" target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Ficatcare.org%2Fadvice%2Fthinking-of-getting-a-cat%2F&title=Thinking+of+getting+a+cat%3F"> <span>Linkedin</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="advice-join-our-community">
+                        <h4>Join the iCatCare Community</h4>
+                        <p>Sign up to our monthly newsletter and free e-magazine Intelligent Cat Care</p>
+                        <a href="https://confirmsubscription.com/h/i/14C23F2F51A6B122" class="btn btn--small" target="_blank" rel="noopener">Sign Up</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+                <footer>
+            <nav class="post-nav clearfix post-nav--single">
+                <div class="container">
+                    <div class="post-nav__wrapper">
+
+                                                    <a href="https://icatcare.org/advice/how-to-encourage-your-cat-to-eat/" rel="next">
+                                <div class="post-nav__link col-md-offset-2 scroll-trigger fromRight">
+                                    <div class="label">Next</div>
+                                    <strong class="article-title">How to encourage your cat to eat</strong>
+                                    <br>
+                                    <span class="btn">
+                                        <i class="icon-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
+                                            </div>
+                </div>
+            </nav>
+        </footer>
+    </article>
+</div>
+<!--.wrapper-->
+<footer class="page-footer">
+    <div class="container">
+        <div class="page-footer__row">
+                            <div class="page-footer__nav-col">
+                                            <h2 class="page-footer__col-title">Who we are</h2>
+                                                                <nav class="page-footer__links">
+                            <ul>
+                                                                                                        <li><a href="/about/meet-the-team/" >Meet the Team</a></li>
+                                                                                                        <li><a href="/about/friends-partners/" >Friends & Partners</a></li>
+                                                                                                        <li><a href="/about/careers-with-us/" >Careers with Us</a></li>
+                                                            </ul>
+                        </nav>
+                                    </div>
+
+                <div class="page-footer__nav-col">
+                                            <h2 class="page-footer__col-title">Learn about cats</h2>
+                                                                <nav class="page-footer__links">
+                            <ul>
+                                                                                                        <li><a href="/advice/" >Cat Care Advice</a></li>
+                                                                                                        <li><a href="/blog/" >Blog</a></li>
+                                                                                                        <li><a href="/education/" >Education & Events</a></li>
+                                                            </ul>
+                        </nav>
+                                    </div>
+
+                <div class="page-footer__nav-col">
+                                            <h2 class="page-footer__col-title">Quick Links</h2>
+                                                                <nav class="page-footer__links">
+                            <ul>
+                                                                                                        <li><a href="/blog/" >Press & Media</a></li>
+                                                                                                        <li><a href="/terms-and-conditions/" >Terms & Conditions</a></li>
+                                                                                                        <li><a href="/privacy-policy/" >Privacy Policy</a></li>
+                                                            </ul>
+                        </nav>
+                                    </div>
+
+                <div class="page-footer__newsletter-col">
+                                            <h2 class="page-footer__col-title">Join the iCatCare Community</h2>
+                                                                <p>Sign up to our monthly charity newsletter</p>
+                                        <a href="https://confirmsubscription.com/h/i/14C23F2F51A6B122" class="btn btn--small" target="_blank" rel="noopener">Sign Up</a>
+                                                                <ul class="page-footer__social">
+                                                            <li><a href="https://www.facebook.com/icatcare" target="_blank" class="icon-facebook"></a></li>
+                                                                                        <li><a href="https://www.instagram.com/icatcare/" target="_blank" class="icon-instagram"></a></li>
+                                                                                        <li><a href="https://twitter.com/icatcare" target="_blank" class="icon-twitter"></a></li>
+                                                                                        <li><a href="https://www.youtube.com/user/iCatCare" target="_blank" class="icon-youtube-play"></a></li>
+                                                    </ul>
+                                    </div>
+                    </div>
+    </div>
+    <div class="page-footer__lower">
+        <div class="container">
+            <div class="page-footer__lower-row">
+                <p>Reg Charity 1117342 (England and Wales) Place Farm, Chilmark Road, Tisbury, Wiltshire, SP3 6LW</p>
+                <p class="copy">&copy; 2023 International Cat Care</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay overlay--search" id="overlay-search">
+    <div class="overlay__inner">
+        <div>
+            <h3>Search iCatCare.org</h3>
+            <form action="/" method="get">
+                <input name="s" id="search" type="text" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="overlay overlay--search" id="overlay-shop">
+    <div class="overlay__inner" tabindex="-1">
+        <div class="shop-popup-content">
+                            <span><p>You are now being re-directed to an external website – www.thecatgallery.co.uk</p>
+<p>The Cat Gallery has partnered with International Cat Care to host the charity’s online shop and manage the distribution of shop bought goods to customers. iCatCare may receive a commission or share in the net profit of some purchases made through the affiliate links.</p>
+<p>Thank you for supporting International Cat Care through your shop purchases!</p>
+<p>Your purchase directly supports the leading global cat welfare charity, International Cat Care. They provide cat owners, veterinary professionals and those who live and work with cats the resources, support, and advice they need to better care for cats.</p>
+</span>
+                        <a id="shop-continue" href="https://thecatgallery.co.uk/collections/international-cat-care-publications-merchandise?aff=5https://thecatgallery.co.uk/collections/international-cat-care-publications-merchandise?aff=5"><button class="btn btn--purple">
+                    Continue to shop                </button></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    WebFontConfig = {
+        google: {
+            families: ['Poppins:300,400,500,600']
+        },
+        active: function() {
+            sessionStorage.fonts = true;
+        },
+        timeout: 2000
+    };
+
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+
+        if (sessionStorage.fonts) {
+            document.documentElement.classList.add('wf-active');
+        }
+    })();
+</script>
+        <script>
+            window.gp_cookie_notice_analytics_id = 'UA-39813136-1';
+            window.gp_cookie_notice_reload_page = false;
+        </script>
+        <div class="cookie-notice"><div class="cookie-notice__inner"><div class="container"><p>We use cookies to improve our website to make sure you have a better browsing experience. For more information, please see our <a href="/privacy-policy">Privacy Policy</a>. Click Yes to help us continue to make these improvements.</p>
+ <div class="cookie-notice__buttons"><button class="cookie-notice__yes-button btn--small btn button">Yes</button><button class="cookie-notice__no-button btn--small btn button">No</button></div></div></div></div>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script src="https://icatcare.org/app/plugins/gp_cookie_notice/assets/dist/js/main.js?ver=1.0.4" id="cookie-notice-js-js"></script>
+<script src="https://icatcare.org/app/plugins/gp_popup/assets/dist/js/main.js?ver=1.0.1" id="popup-notice-js-js"></script>
+<script src="https://icatcare.org/app/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70" id="jquery-blockui-js"></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/icatcare.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.9.5" id="wc-add-to-cart-js"></script>
+<script src="https://icatcare.org/app/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4" id="js-cookie-js"></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.9.5" id="woocommerce-js"></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_f3ead5b60cd62df3336dea95e80dcfc2","fragment_name":"wc_fragments_f3ead5b60cd62df3336dea95e80dcfc2","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.9.5" id="wc-cart-fragments-js"></script>
+<script type='text/javascript' id='ga_events_frontend_bundle-js-extra'>
+/* <![CDATA[ */
+var ga_options = {"link_clicks_delay":"120","gtm":"0","anonymizeip":"0","advanced":"0","snippet_type":"none","tracking_id":"UA-39813136-1","gtm_id":"","domain":"","tel_link_tracking":"0","email_link_tracking":"0","download_tracking":"0","download_tracking_type":["pdf","mp3","pptx","docx"],"force_snippet":"none","scroll_elements":[],"click_elements":[{"name":"catFriendlyDecision3","type":"id","category":"Download Link","action":"click","label":"Identifying solutions for inbetweener cats","value":"","bounce":"true"},{"name":"catFriendlyDecision2","type":"id","category":"Download Link","action":"click","label":"Outcomes for kittens born to free-roaming unowned cats","value":"","bounce":"true"},{"name":"catFriendlyDecision1","type":"id","category":"Download Link","action":"click","label":"Managing cat populations based on an understanding of cat lifestyle and population dynamics","value":"","bounce":"true"}]};
+var gaePlaceholders = {"is_front_page":"","page_title":"Thinking of getting a cat?"};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/wp-google-analytics-events/js/dist/frontend-scripts.min.js?ver=1.0" id="ga_events_frontend_bundle-js"></script>
+<script type='text/javascript' id='give-donation-summary-script-frontend-js-extra'>
+/* <![CDATA[ */
+var GiveDonationSummaryData = {"currencyPrecisionLookup":{"USD":2,"EUR":2,"GBP":2,"AUD":2,"BRL":2,"CAD":2,"CZK":2,"DKK":2,"HKD":2,"HUF":2,"ILS":2,"JPY":0,"MYR":2,"MXN":2,"MAD":2,"NZD":2,"NOK":2,"PHP":2,"PLN":2,"SGD":2,"KRW":0,"ZAR":2,"SEK":2,"CHF":2,"TWD":2,"THB":2,"INR":2,"TRY":2,"IRR":2,"RUB":2,"AED":2,"AMD":2,"ANG":2,"ARS":2,"AWG":2,"BAM":2,"BDT":2,"BHD":3,"BMD":2,"BND":2,"BOB":2,"BSD":2,"BWP":2,"BZD":2,"CLP":0,"CNY":2,"COP":2,"CRC":2,"CUC":2,"CUP":2,"DOP":2,"EGP":2,"GIP":2,"GTQ":2,"HNL":2,"HRK":2,"IDR":2,"ISK":0,"JMD":2,"JOD":2,"KES":2,"KWD":2,"KYD":2,"MKD":2,"NPR":2,"OMR":3,"PEN":2,"PKR":2,"RON":2,"SAR":2,"SZL":2,"TOP":2,"TZS":2,"UAH":2,"UYU":2,"VEF":2,"XCD":2,"AFN":2,"ALL":2,"AOA":2,"AZN":2,"BBD":2,"BGN":2,"BIF":0,"BTC":8,"BTN":1,"BYR":2,"BYN":2,"CDF":2,"CVE":2,"DJF":0,"DZD":2,"ERN":2,"ETB":2,"FJD":2,"FKP":2,"GEL":2,"GGP":2,"GHS":2,"GMD":2,"GNF":0,"GYD":2,"HTG":2,"IMP":2,"IQD":2,"IRT":2,"JEP":2,"KGS":2,"KHR":0,"KMF":2,"KPW":0,"KZT":2,"LAK":0,"LBP":2,"LKR":0,"LRD":2,"LSL":2,"LYD":3,"MDL":2,"MGA":0,"MMK":2,"MNT":2,"MOP":2,"MRO":2,"MUR":2,"MVR":1,"MWK":2,"MZN":0,"NAD":2,"NGN":2,"NIO":2,"PAB":2,"PGK":2,"PRB":2,"PYG":2,"QAR":2,"RSD":2,"RWF":2,"SBD":2,"SCR":2,"SDG":2,"SHP":2,"SLL":2,"SOS":2,"SRD":2,"SSP":2,"STD":2,"SYP":2,"TJS":2,"TMT":2,"TND":3,"TTD":2,"UGX":2,"UZS":2,"VND":1,"VUV":0,"WST":2,"XAF":2,"XOF":2,"XPF":2,"YER":2,"ZMW":2},"recurringLabelLookup":{"day":"Daily","week":"Weekly","month":"Monthly","quarter":"Quarterly","half-year":"Semi-Annually","year":"Yearly"}};
+/* ]]> */
+</script>
+<script src="https://icatcare.org/app/plugins/give/assets/dist/js/give-donation-summary.js?ver=2.19.8" id="give-donation-summary-script-frontend-js"></script>
+<script src="https://icatcare.org/app/themes/icc/assets/js/main.js?ver=1.0.8" id="mainjs-js"></script>
+</body>
+
+</html>

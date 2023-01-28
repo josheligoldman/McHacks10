@@ -1,4 +1,6 @@
 import io
+import math
+
 import requests
 from PIL import Image
 from requests_html import HTMLSession
@@ -22,6 +24,17 @@ def create_master_html(search_term):
     return result.html.html
 
 
+def get_origin_html(origin_link):
+    session = HTMLSession()
+    try:
+        result = session.get(origin_link)
+    except:
+        print(origin_link)
+
+    return result.html.html
+    # return requests.get(origin_link).text
+
+
 def download_image(download_path, url, file_name):
     try:
         image_content = requests.get(url).content
@@ -38,19 +51,38 @@ def download_image(download_path, url, file_name):
 
 
 # Create a block of text that is a segment of the full html file that contains the data for a single image
-def create_segmented_html_block(start_key, text):
-    start_key -= 2
+def create_segmented_html_block(start_key, text, start_sentinel="{", end_sentinel="}", start_mod=2):
+    start_key -= start_mod
     counter_key = start_key
     bracket_val = -1
 
     while bracket_val != 0:
         counter_key += 1
-        if text[counter_key] == "{":
+        if text[counter_key] == start_sentinel:
             bracket_val -= 1
-        elif text[counter_key] == "}":
+        elif text[counter_key] == end_sentinel:
             bracket_val += 1
 
     return text[start_key:counter_key+1]
+
+
+"""def origin_alt_text_block_segment_generation(origin_link, origin_html):
+    origin_link_locations = [m.start() for m in re.finditer(origin_link, origin_html)]
+    for link_loc in origin_link_locations:
+        create_one_origin_block(link_loc, origin_html)
+    print(origin_link_locations)
+
+
+def create_one_origin_block(location, origin_html, start_sentinel="<", end_sentinel=">"):
+    start_key = location - 1
+    sentinel_val = 0
+    while sentinel_val != -1:
+        start_key -= 1
+        if origin_html[start_key] == end_sentinel:
+            sentinel_val += 1
+        elif origin_html[start_key] == start_sentinel:
+            sentinel_val -= 1
+    print(origin_html[start_key:start_key+20])"""
 
 
 def find_link_h_w_in_block(block):
@@ -71,16 +103,16 @@ def find_link_h_w_in_block(block):
     return link_h_w
 
 
-def find_alt_text(alt_key, block, key_len=13):
-    start_index = block.find(alt_key) + key_len
+def find_alt_text(html_block, alt_key="2008", key_len=13):
+    start_index = html_block.find(alt_key) + key_len
     counter = start_index
-    while block[counter] != "]":
+    while html_block[counter] != "]":
         counter += 1
-    return block[start_index:counter-1]
+    return html_block[start_index:counter-1]
 
 
-def find_origin_link(block, origin_key="2003"):
-    print(find_alt_text(origin_key, block, 12))
+def find_origin_link(html_block, origin_key="2003"):
+    return find_alt_text(html_block, origin_key, 12).split(",")[1][1:-1]
 
 
 def generate_block_list(search_term, image_key="444383007", alt_text_key="2008", site_origin_key="2003"):
@@ -100,19 +132,28 @@ def generate_block_list(search_term, image_key="444383007", alt_text_key="2008",
 
 
 def find_pertinent_data(search_term, super_search):
-    # The keys within the html
-    alt_text_key = "2008"
-
     block_list = generate_block_list(search_term)
 
     r_dict = {}
     for num, block in enumerate(block_list):
         link, h, w = find_link_h_w_in_block(block)
-        alt_text = find_alt_text(alt_text_key, block)
+        alt_text = find_alt_text(block)
+        origin_link = find_origin_link(block)
+        """origin_alt_text = get_origin_alt_text(origin_link, link)
+
+        if origin_alt_text == "FAILURE":
+            continue
 
         r_dict[search_term + str(num)] = {"image_link": link, "height": int(h),
                                           "width": int(w), "alt_text": alt_text,
-                                          "super_search": super_search}
+                                          "super_search": super_search,
+                                          "origin_link": origin_link,
+                                          "origin_alt_text": origin_alt_text}"""
+
+        r_dict[search_term + str(num)] = {"image_link": link, "height": int(h),
+                                          "width": int(w), "alt_text": alt_text,
+                                          "super_search": super_search,
+                                          "origin_link": origin_link}
 
     return r_dict
 
@@ -132,8 +173,61 @@ def chat_gpt_subcategory_generation(super_search, sub_cat_count=10):
     return response["choices"][0]["text"].strip().split(",")
 
 
-print(find_pertinent_data("Cats", "Dogs"))
+def get_origin_alt_text(origin_link, image_link):
+    origin_html = get_origin_html(origin_link)
 
+    image_link_locations = [m.start() for m in re.finditer(image_link, origin_html)]
+    alt_tag_locations = [m.start() for m in re.finditer("alt", origin_html)] + \
+                        [m.start() for m in re.finditer("imageAlt", origin_html)]
+
+    if len(image_link_locations) == 0 or len(alt_tag_locations) == 0:
+        return "FAILURE"
+
+    alt_list = []
+    for link_loc in image_link_locations:
+        alt_list.append(fetch_alt_text_slice(origin_html, find_closest(link_loc, alt_tag_locations)))
+
+    return sorted(alt_list, key=len)[0]
+
+
+def fetch_alt_text_slice(origin_html, start_index):
+    quote_count = 0
+    counter = start_index
+    alt_text = ""
+    while quote_count < 3:
+        if origin_html[counter] == "\"":
+            quote_count += 1
+        if quote_count == 2:
+            alt_text += origin_html[counter]
+        counter += 1
+    return alt_text[1:]
+
+
+
+
+def find_closest(target_num, num_list):
+    closest_num = math.inf
+    for num in num_list:
+        if abs(target_num - num) < abs(target_num - closest_num):
+            closest_num = num
+    return closest_num
+
+# print(find_closest(4, [20, 7, -20, 5, 88, 92]))
+
+
+# block = generate_block_list("Cats")[0]
+# print(find_origin_link(block))
+master_dict = find_pertinent_data("Cats", "Dogs")
+print(master_dict)
+origin1 = master_dict["Cats0"]["origin_link"]
+image_link1 = master_dict["Cats0"]["image_link"]
+# origin_html_block = get_origin_html(origin1)
+
+"""origin_alt_text_block_segment_generation(image_link1, origin_html_block)"""
+
+get_origin_alt_text(origin1, image_link1)
+
+print()
 
 
 
