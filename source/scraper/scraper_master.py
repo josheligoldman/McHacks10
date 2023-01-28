@@ -71,19 +71,19 @@ def find_link_h_w_in_block(block):
     return link_h_w
 
 
-def find_alt_text(alt_key, block):
-    start_index = block.find(alt_key) + 13
+def find_alt_text(alt_key, block, key_len=13):
+    start_index = block.find(alt_key) + key_len
     counter = start_index
     while block[counter] != "]":
         counter += 1
     return block[start_index:counter-1]
 
 
-def find_pertinent_data(search_term, super_search):
-    # The keys within the html
-    image_key = "444383007"
-    alt_text_key = "2008"
+def find_origin_link(block, origin_key="2003"):
+    print(find_alt_text(origin_key, block, 12))
 
+
+def generate_block_list(search_term, image_key="444383007", alt_text_key="2008", site_origin_key="2003"):
     # the requested resultant html script
     html_text = create_master_html(search_term)
 
@@ -93,8 +93,17 @@ def find_pertinent_data(search_term, super_search):
     block_list = []
     for image_key in image_key_list:
         block = create_segmented_html_block(image_key, html_text)
-        if alt_text_key in block:
+        if alt_text_key in block and site_origin_key in block:
             block_list.append(block)
+
+    return block_list
+
+
+def find_pertinent_data(search_term, super_search):
+    # The keys within the html
+    alt_text_key = "2008"
+
+    block_list = generate_block_list(search_term)
 
     r_dict = {}
     for num, block in enumerate(block_list):
@@ -121,5 +130,11 @@ def chat_gpt_subcategory_generation(super_search, sub_cat_count=10):
     if response == "Error":
         return "Error"
     return response["choices"][0]["text"].strip().split(",")
+
+
+print(find_pertinent_data("Cats", "Dogs"))
+
+
+
 
 
