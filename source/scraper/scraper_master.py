@@ -194,7 +194,7 @@ def find_pertinent_data(search_term, super_search):
                                           "origin_link": origin_link,
                                           "origin_alt_text": origin_alt_text}
 
-        # input()
+        input()
 
     return r_dict
 
