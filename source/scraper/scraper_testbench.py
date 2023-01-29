@@ -225,7 +225,8 @@ def find_closest(target_num, num_list):
 def test_file_creation(search_term, super_search):
     r_dict = find_pertinent_data(search_term, super_search)
     with open("sample.json", "w") as outfile:
-        json.dump(r_dict, outfile)
+        json.dump(r_dict, outfile, sort_keys=True, indent=4)
+
 
 test_file_creation("Cats", "Cats")
 
