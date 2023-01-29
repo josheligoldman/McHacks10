@@ -291,8 +291,25 @@ def save_to_json(f_name, class_list, subcategory_generation=False, sub_cat_count
         json.dump(r_dict, outfile, sort_keys=True, indent=4)
 
 
+def save_to_json_pre_made_dict(f_name, r_dict):
+    with open(f_name, "w") as outfile:
+        json.dump(r_dict, outfile, sort_keys=True, indent=4)
+
+
+def sub_category_implementation(num_images, class_list, search_estimate=18):
+    if num_images <= search_estimate:
+        return all_classes(class_list)
+    else:
+        sub_category_count = math.ceil(num_images / search_estimate)
+        return all_classes(class_list, True, sub_category_count)
+
+
+def sub_category_implementation_pipe_to_json(num_images, class_list, f_name):
+    save_to_json_pre_made_dict(f_name, sub_category_implementation(num_images, class_list))
+
+
 if __name__ == '__main__':
-    save_to_json("sample3.json", ["Planes", "Hats"])
+    sub_category_implementation_pipe_to_json(30, ["Planes", "Hats"], "sample3.json")
 
 
 
