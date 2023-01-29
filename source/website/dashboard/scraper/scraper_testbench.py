@@ -115,7 +115,7 @@ def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search)
                 r_str += origin_html[counter]
             counter += 1
 
-        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
+        if len(r_str[1:]) > 0:
             alt_text_collection[alt_tag] = r_str[1:]
 
     for alt_tag in non_html_alt_tag:
@@ -128,7 +128,7 @@ def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search)
             if quote_counter == 2:
                 r_str += origin_html[counter]
             counter += 1
-        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
+        if len(r_str[1:]) > 0:
             alt_text_collection[alt_tag] = r_str[1:]
 
     approved_dict = {}
@@ -182,6 +182,8 @@ def find_pertinent_data(search_term, super_search):
     for num, block in enumerate(block_list):
         link, h, w = find_link_h_w_in_block(block)
         alt_text = find_alt_text(block)
+        if not check_term_containment(alt_text, search_term, super_search):
+            continue
         origin_link = find_origin_link(block)
 
         if origin_link[:4] != "http":
@@ -260,6 +262,9 @@ def save_to_json(f_name, class_list, subcategory_generation=False, sub_cat_count
     r_dict = all_classes(class_list, subcategory_generation, sub_cat_count)
     with open(f_name, "w") as outfile:
         json.dump(r_dict, outfile, sort_keys=True, indent=4)
+
+
+save_to_json("sample3.json", ["Cats", "Dogs"])
 
 
 
