@@ -26,11 +26,17 @@ def create_master_html(search_term):
 
 def get_origin_html(origin_link):
     session = HTMLSession()
+    """try:
+        result = session.get(origin_link)
+    except:
+        print(Exception)
+        print(origin_link)
+
+    return result.html.html"""
     try:
         result = session.get(origin_link)
     except:
-        print(origin_link)
-
+        return "FAILURE"
     return result.html.html
     # return requests.get(origin_link).text
 
@@ -92,13 +98,30 @@ def find_alt_text(html_block, alt_key="2008", key_len=13):
     return html_block[start_index:counter-1]
 
 
+def trim_image_link(image_link):
+    for extension in [".png", ".jpg", ".jpeg"]:
+        if extension in image_link:
+            return image_link[:image_link.find(extension) + len(extension)]
+    return "NO EXTENSION FOUND"
+
+
 def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search):
     origin_html = get_origin_html(origin_link)
-
-    image_link_locations = [m.start() for m in re.finditer(image_link, origin_html)]
-    alt_tag_locations = [m.start() for m in re.finditer("alt=\"", origin_html)] + \
-                        [m.start() for m in re.finditer("imageAlt=\"", origin_html)]
-    non_html_alt_tag = [m.start() for m in re.finditer("altText\":\"", origin_html)]
+    if origin_html == "FAILURE":
+        return "FAILURE"
+    # print("image_link", image_link)
+    # print("trimmed image link", trim_image_link(image_link))
+    if "**" in image_link:
+        image_link = trim_image_link(image_link)
+        if image_link == "NO EXTENSION FOUND":
+            return "FAILURE"
+    try:
+        image_link_locations = [m.start() for m in re.finditer(image_link, origin_html)]
+        alt_tag_locations = [m.start() for m in re.finditer("alt=\"", origin_html)] + \
+                            [m.start() for m in re.finditer("imageAlt=\"", origin_html)]
+        non_html_alt_tag = [m.start() for m in re.finditer("altText\":\"", origin_html)]
+    except:
+        return "FAILURE"
 
     if len(image_link_locations) == 0 or len(alt_tag_locations) == 0:
         return "FAILURE"
@@ -137,8 +160,9 @@ def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search)
             approved_dict[key] = alt_text_collection[key]
 
     try:
-        closest_list = [(approved_dict[find_closest(link_loc, approved_dict.keys())], abs(find_closest(link_loc, approved_dict.keys()) - link_loc))
-                    for link_loc in image_link_locations]
+        closest_list = [(approved_dict[find_closest(link_loc, approved_dict.keys())],
+                         abs(find_closest(link_loc, approved_dict.keys()) - link_loc))
+                         for link_loc in image_link_locations]
     except KeyError:
         return "FAILURE"
 
@@ -180,7 +204,10 @@ def find_pertinent_data(search_term, super_search):
 
     r_dict = {}
     for num, block in enumerate(block_list):
-        link, h, w = find_link_h_w_in_block(block)
+        try:
+            link, h, w = find_link_h_w_in_block(block)
+        except ValueError:
+            continue
         alt_text = find_alt_text(block)
         if not check_term_containment(alt_text, search_term, super_search):
             continue
@@ -192,7 +219,7 @@ def find_pertinent_data(search_term, super_search):
         origin_alt_text = find_origin_alt_text_tag(link, origin_link, search_term, super_search)
         if origin_alt_text == "FAILURE":
             continue
-
+        print(link)
         r_dict[search_term + str(num)] = {"image_link": link, "height": int(h),
                                           "width": int(w), "alt_text": alt_text,
                                           "super_search": super_search,
@@ -265,7 +292,8 @@ def save_to_json(f_name, class_list, subcategory_generation=False, sub_cat_count
 
 
 if __name__ == '__main__':
-    save_to_json("sample3.json", ["Cats", "Dogs"])
+    save_to_json("sample3.json", ["Planes", "Hats"])
+
 
 
 
