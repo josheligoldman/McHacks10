@@ -35,7 +35,7 @@ with open("sample3.json", 'r') as f:
     for key in json_data:
         current_image_data = json_data[key]
         download_image(path_to_dir, current_image_data["image_link"], current_image_data["super_search"] +
-                       "_" + str(category_dict[current_image_data["super_search"]]))
+                       "_" + str(category_dict[current_image_data["super_search"]]) + ".jpeg")
         category_dict[current_image_data["super_search"]] += 1
 
 
