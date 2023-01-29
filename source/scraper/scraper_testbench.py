@@ -1,6 +1,6 @@
 import io
 import math
-
+import json
 import requests
 from PIL import Image
 from requests_html import HTMLSession
@@ -136,21 +136,12 @@ def find_origin_alt_text_tag(image_link, origin_link):
                     for link_loc in image_link_locations]
     except KeyError:
         return "FAILURE"
-    # print("closest:", closest_list)
     closest_list = sorted(closest_list, key=lambda x: x[1])
-    print("closest:", closest_list)
-    print("answer:", closest_list[0][0])
-    print("image_link_locations:", image_link_locations)
-    print("alt_text_collection:", alt_text_collection)
-    print(origin_html)
-    print()
 
     return closest_list[0][0]
 
 
-
 def find_origin_link(html_block, origin_key="2003"):
-    print(find_alt_text(html_block, origin_key, 12).split(",")[1])
     return find_alt_text(html_block, origin_key, 12).split(",")[1][1:-1]
 
 
@@ -183,8 +174,6 @@ def find_pertinent_data(search_term, super_search):
             continue
 
         origin_alt_text = find_origin_alt_text_tag(link, origin_link)
-        print(origin_alt_text)
-        print(link)
         if origin_alt_text == "FAILURE":
             continue
 
@@ -193,8 +182,6 @@ def find_pertinent_data(search_term, super_search):
                                           "super_search": super_search,
                                           "origin_link": origin_link,
                                           "origin_alt_text": origin_alt_text}
-
-        # input()
 
     return r_dict
 
@@ -235,21 +222,12 @@ def find_closest(target_num, num_list):
     return closest_num
 
 
-# block = generate_block_list("Cats")[0]
-# print(find_origin_link(block))
-master_dict = find_pertinent_data("Cats", "Dogs")
-print("length:", len(master_dict))
-print(master_dict)
-origin1 = master_dict["Cats0"]["origin_link"]
-image_link1 = master_dict["Cats0"]["image_link"]
-# origin_html_block = get_origin_html(origin1)
+def test_file_creation(search_term, super_search):
+    r_dict = find_pertinent_data(search_term, super_search)
+    with open("sample.json", "w") as outfile:
+        json.dump(r_dict, outfile)
 
-"""origin_alt_text_block_segment_generation(image_link1, origin_html_block)"""
-
-# get_origin_alt_text(origin1, image_link1)
-
-print()
-
+test_file_creation("Cats", "Cats")
 
 
 
