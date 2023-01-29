@@ -294,7 +294,7 @@ def sub_category_implementation_pipe_to_json(num_images, class_list, f_name):
 
 
 if __name__ == '__main__':
-    sub_category_implementation_pipe_to_json(30, ["Planes", "Hats"], "sample3.json")
+    sub_category_implementation_pipe_to_json(18, ["Planes", "Hats"], "sample3.json")
 
 
 
