@@ -1,14 +1,16 @@
-import asyncio
-import time
+import sys
 
 from django.shortcuts import render
+from django.conf import settings
 
 # Create your views here.
 
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.template import loader
 
 from .forms import AddClassForm
+
+from scraper import scraper_testbench
 
 
 def index_view(request):
@@ -18,13 +20,21 @@ def index_view(request):
         form = AddClassForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
+            print(request.POST)
             if "add_class" in request.POST:
                 classes = request.session.get('classes', [])
                 classes.append(form.cleaned_data['added_class'])
                 request.session['classes'] = classes
                 print("Classes", request.session.get('classes', []))
-            else:
+            elif "done" in request.POST:
                 return HttpResponseRedirect('/build')
+            else:
+                classes = request.session.get('classes', [])
+                for index in range(len(classes)):
+                    if "delete_" + str(index) in request.POST:
+                        classes = request.session.get('classes', [])
+                        classes.pop(index)
+                        request.session['classes'] = classes
 
     context = {
         'form': AddClassForm(),
@@ -39,7 +49,9 @@ def index_view(request):
 
 
 def dataset_view(request):
-    dataset = build_dataset()
+    dataset = scraper_testbench.test_file_creation()
+
+    del request.session['classes']
 
     context = {
 
@@ -53,5 +65,5 @@ def dataset_view(request):
 
 
 def build_dataset():
-    return 0
+    return "/Users/joshgoldman/Documents/GitHub/McHacks10/datasets"
 

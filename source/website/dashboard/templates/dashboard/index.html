@@ -2,21 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Clever Name</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'dashboard/index.css' %}">
+        <title>Byeas</title>
     </head>
     <body>
-        <p>Hello, World!</p>
-        <form action="" method="post">
-            {% csrf_token %}
-            {{ form }}
-            <input type="submit" name="add_class" value="Submit">
-            <input type="submit" name="done" value="Done">
-        </form>
-        {% for class in classes %}
-            <div>
-                {{ class }}
-            </div>
-        {% endfor %}
-
+        <h1 class="header">Byeas</h1>
+        <div class="container">
+            <form action="" method="post">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" name="add_class" value="Submit">
+                <input type="submit" name="done" value="Done">
+            </form>
+            {% for class in classes %}
+                <div>
+                    {{ class }}
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <input type="submit" name="delete_{{ forloop.counter0 }}" value="Delete">
+                    </form>
+                </div>
+            {% endfor %}
+        </div>
     </body>
 </html>
