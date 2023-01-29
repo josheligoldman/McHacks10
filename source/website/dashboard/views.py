@@ -10,7 +10,7 @@ from django.template import loader
 
 from .forms import AddClassForm
 
-from scraper import scraper_testbench
+from .scraper import scraper_testbench
 
 
 def index_view(request):
@@ -20,12 +20,12 @@ def index_view(request):
         form = AddClassForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
-            print(request.POST)
+            if 'add_class' in request.POST or 'done' in request.POST:
+                request.session['num_images'] = request.POST['num_images']
             if "add_class" in request.POST:
                 classes = request.session.get('classes', [])
                 classes.append(form.cleaned_data['added_class'])
                 request.session['classes'] = classes
-                print("Classes", request.session.get('classes', []))
             elif "done" in request.POST:
                 return HttpResponseRedirect('/build')
             else:
@@ -37,6 +37,7 @@ def index_view(request):
                         request.session['classes'] = classes
 
     context = {
+        'num_images': request.session.get('num_images', 50),
         'form': AddClassForm(),
         'classes': request.session.get('classes', []),
     }
@@ -49,7 +50,11 @@ def index_view(request):
 
 
 def dataset_view(request):
-    dataset = scraper_testbench.test_file_creation()
+    """
+    dataset = scraper_testbench.find_pertinent_data(
+        request.session['classes']
+    )
+    """
 
     del request.session['classes']
 

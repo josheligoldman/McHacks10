@@ -7,23 +7,32 @@
         <title>Byeas</title>
     </head>
     <body>
-        <h1 class="header">Byeas</h1>
+        <div class="header-container">
+            <h1 class="header">Clever Name</h1>
+        </div>
         <div class="container">
-            <form action="" method="post">
+            <form action="" method="post" class="class_form">
                 {% csrf_token %}
                 {{ form }}
-                <input type="submit" name="add_class" value="Submit">
-                <input type="submit" name="done" value="Done">
+
+                <input class="button-36" type="submit" name="add_class" value="Add">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="{{ num_images }}" class="slider" id="myRange" name="num_images">
+                    <p class="value">Images Per Class: <span id="demo"></span></p>
+                </div>
+                <input class="button-1" type="submit" name="done" value="Build My Dataset!">
             </form>
             {% for class in classes %}
-                <div>
-                    {{ class }}
+                <div class="class_item">
+                    <span class="class_name">{{ class }}</span>
                     <form action="" method="post">
                         {% csrf_token %}
-                        <input type="submit" name="delete_{{ forloop.counter0 }}" value="Delete">
+                        <input class="del_button" type="submit" name="delete_{{ forloop.counter0 }}" value="">
                     </form>
                 </div>
             {% endfor %}
         </div>
+        <script src="{% static 'dashboard/index.js' %}"></script>
+
     </body>
 </html>

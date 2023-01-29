@@ -253,20 +253,21 @@ def find_closest(target_num, num_list):
     return closest_num
 
 
-# block = generate_block_list("Cats")[0]
-# print(find_origin_link(block))
-master_dict = find_pertinent_data("Cats", "Dogs")
-print("length:", len(master_dict))
-print(master_dict)
-origin1 = master_dict["Cats0"]["origin_link"]
-image_link1 = master_dict["Cats0"]["image_link"]
-# origin_html_block = get_origin_html(origin1)
+if __name__ == "__main__":
+    # block = generate_block_list("Cats")[0]
+    # print(find_origin_link(block))
+    master_dict = find_pertinent_data("Cats", "Dogs")
+    print("length:", len(master_dict))
+    print(master_dict)
+    origin1 = master_dict["Cats0"]["origin_link"]
+    image_link1 = master_dict["Cats0"]["image_link"]
+    # origin_html_block = get_origin_html(origin1)
 
-"""origin_alt_text_block_segment_generation(image_link1, origin_html_block)"""
+    """origin_alt_text_block_segment_generation(image_link1, origin_html_block)"""
 
-# get_origin_alt_text(origin1, image_link1)
+    # get_origin_alt_text(origin1, image_link1)
 
-print()
+    print()
 
 
 
