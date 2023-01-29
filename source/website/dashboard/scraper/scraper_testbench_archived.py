@@ -1,6 +1,6 @@
 import io
 import math
-
+import json
 import requests
 from PIL import Image
 from requests_html import HTMLSession
@@ -92,7 +92,7 @@ def find_alt_text(html_block, alt_key="2008", key_len=13):
     return html_block[start_index:counter-1]
 
 
-def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search):
+def find_origin_alt_text_tag(image_link, origin_link):
     origin_html = get_origin_html(origin_link)
 
     image_link_locations = [m.start() for m in re.finditer(image_link, origin_html)]
@@ -115,7 +115,7 @@ def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search)
                 r_str += origin_html[counter]
             counter += 1
 
-        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
+        if len(r_str[1:]) > 0:
             alt_text_collection[alt_tag] = r_str[1:]
 
     for alt_tag in non_html_alt_tag:
@@ -128,43 +128,20 @@ def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search)
             if quote_counter == 2:
                 r_str += origin_html[counter]
             counter += 1
-        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
+        if len(r_str[1:]) > 0:
             alt_text_collection[alt_tag] = r_str[1:]
 
-    print("alt_text_collection", alt_text_collection)
-
-    approved_dict = {}
-    for key in alt_text_collection:
-        if check_term_containment(alt_text_collection[key], search_term, super_search):
-            approved_dict[key] = alt_text_collection[key]
-    print("approved_dict", approved_dict)
-    print(origin_html)
     try:
-        closest_list = [(approved_dict[find_closest(link_loc, approved_dict.keys())], abs(find_closest(link_loc, approved_dict.keys()) - link_loc))
+        closest_list = [(alt_text_collection[find_closest(link_loc, alt_text_collection.keys())], abs(find_closest(link_loc, alt_text_collection.keys()) - link_loc))
                     for link_loc in image_link_locations]
     except KeyError:
         return "FAILURE"
-    # print("closest:", closest_list)
     closest_list = sorted(closest_list, key=lambda x: x[1])
-    print("closest:", closest_list)
-    print("answer:", closest_list[0][0])
-    print("image_link_locations:", image_link_locations)
-    print("alt_text_collection:", alt_text_collection)
-    print()
 
     return closest_list[0][0]
 
 
-def check_term_containment(string, search_term, super_search):
-    term_list = [search_term.lower(), super_search.lower(), search_term[:-1].lower(), super_search[:-1].lower()]
-    for term in term_list:
-        if term in string.lower():
-            return True
-    return False
-
-
 def find_origin_link(html_block, origin_key="2003"):
-    print(find_alt_text(html_block, origin_key, 12).split(",")[1])
     return find_alt_text(html_block, origin_key, 12).split(",")[1][1:-1]
 
 
@@ -196,9 +173,7 @@ def find_pertinent_data(search_term, super_search):
         if origin_link[:4] != "http":
             continue
 
-        origin_alt_text = find_origin_alt_text_tag(link, origin_link, search_term, super_search)
-        print(origin_alt_text)
-        print(link)
+        origin_alt_text = find_origin_alt_text_tag(link, origin_link)
         if origin_alt_text == "FAILURE":
             continue
 
@@ -207,8 +182,6 @@ def find_pertinent_data(search_term, super_search):
                                           "super_search": super_search,
                                           "origin_link": origin_link,
                                           "origin_alt_text": origin_alt_text}
-
-        # input()
 
     return r_dict
 
@@ -253,21 +226,32 @@ def find_closest(target_num, num_list):
     return closest_num
 
 
-# block = generate_block_list("Cats")[0]
-# print(find_origin_link(block))
-master_dict = find_pertinent_data("Cats", "Dogs")
-print("length:", len(master_dict))
-print(master_dict)
-origin1 = master_dict["Cats0"]["origin_link"]
-image_link1 = master_dict["Cats0"]["image_link"]
-# origin_html_block = get_origin_html(origin1)
+def test_file_creation(search_term, super_search):
+    r_dict = find_pertinent_data(search_term, super_search)
+    with open("sample.json", "w") as outfile:
+        json.dump(r_dict, outfile, sort_keys=True, indent=4)
 
-"""origin_alt_text_block_segment_generation(image_link1, origin_html_block)"""
 
-# get_origin_alt_text(origin1, image_link1)
+def all_classes(class_list, subcat_generation=False, sub_cat_count=10):
+    r_dict = {}
+    if subcat_generation:
+        cat_dict = {}
+        for cl in class_list:
+            cat_dict[cl] = chat_gpt_subcategory_generation(cl, sub_cat_count)
+        for key in cat_dict:
+            for sub_cat in cat_dict[key]:
+                r_dict.update(find_pertinent_data(sub_cat, key))
+    else:
+        for cl in class_list:
+            r_dict.update(find_pertinent_data(cl, cl))
 
-print()
+    return r_dict
 
+
+r_dict = all_classes(["Cats", "Dogs"], True, 3)
+
+with open("sample2.json", "w") as outfile:
+    json.dump(r_dict, outfile, sort_keys=True, indent=4)
 
 
 

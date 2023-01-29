@@ -92,7 +92,7 @@ def find_alt_text(html_block, alt_key="2008", key_len=13):
     return html_block[start_index:counter-1]
 
 
-def find_origin_alt_text_tag(image_link, origin_link):
+def find_origin_alt_text_tag(image_link, origin_link, search_term, super_search):
     origin_html = get_origin_html(origin_link)
 
     image_link_locations = [m.start() for m in re.finditer(image_link, origin_html)]
@@ -115,7 +115,7 @@ def find_origin_alt_text_tag(image_link, origin_link):
                 r_str += origin_html[counter]
             counter += 1
 
-        if len(r_str[1:]) > 0:
+        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
             alt_text_collection[alt_tag] = r_str[1:]
 
     for alt_tag in non_html_alt_tag:
@@ -128,17 +128,31 @@ def find_origin_alt_text_tag(image_link, origin_link):
             if quote_counter == 2:
                 r_str += origin_html[counter]
             counter += 1
-        if len(r_str[1:]) > 0:
+        if len(r_str[1:]) > 0: # and (search_term.lower() in r_str.lower() or super_search.lower() in r_str.lower()):
             alt_text_collection[alt_tag] = r_str[1:]
 
+    approved_dict = {}
+    for key in alt_text_collection:
+        if check_term_containment(alt_text_collection[key], search_term, super_search):
+            approved_dict[key] = alt_text_collection[key]
+
     try:
-        closest_list = [(alt_text_collection[find_closest(link_loc, alt_text_collection.keys())], abs(find_closest(link_loc, alt_text_collection.keys()) - link_loc))
+        closest_list = [(approved_dict[find_closest(link_loc, approved_dict.keys())], abs(find_closest(link_loc, approved_dict.keys()) - link_loc))
                     for link_loc in image_link_locations]
     except KeyError:
         return "FAILURE"
+
     closest_list = sorted(closest_list, key=lambda x: x[1])
 
     return closest_list[0][0]
+
+
+def check_term_containment(string, search_term, super_search):
+    term_list = [search_term.lower(), super_search.lower(), search_term[:-1].lower(), super_search[:-1].lower()]
+    for term in term_list:
+        if term in string.lower():
+            return True
+    return False
 
 
 def find_origin_link(html_block, origin_key="2003"):
@@ -173,7 +187,7 @@ def find_pertinent_data(search_term, super_search):
         if origin_link[:4] != "http":
             continue
 
-        origin_alt_text = find_origin_alt_text_tag(link, origin_link)
+        origin_alt_text = find_origin_alt_text_tag(link, origin_link, search_term, super_search)
         if origin_alt_text == "FAILURE":
             continue
 
@@ -187,7 +201,7 @@ def find_pertinent_data(search_term, super_search):
 
 
 def chat_gpt_subcategory_generation(super_search, sub_cat_count=10):
-    API_KEY_darturi = "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"
+    API_KEY_darturi = "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"
 
     # Load API key
     openai.api_key = API_KEY_darturi
@@ -198,7 +212,11 @@ def chat_gpt_subcategory_generation(super_search, sub_cat_count=10):
 
     if response == "Error":
         return "Error"
-    return response["choices"][0]["text"].strip().split(",")
+
+    response_list = response["choices"][0]["text"].strip().split(",")
+    response_list = [i.strip() for i in response_list]
+
+    return response_list
 
 
 def fetch_alt_text_slice(origin_html, start_index):
@@ -222,15 +240,30 @@ def find_closest(target_num, num_list):
     return closest_num
 
 
-def test_file_creation(search_term, super_search):
-    r_dict = find_pertinent_data(search_term, super_search)
-    with open("sample.json", "w") as outfile:
+def all_classes(class_list, subcategory_generation=False, sub_cat_count=10):
+    r_dict = {}
+    if subcategory_generation:
+        cat_dict = {}
+        for cl in class_list:
+            cat_dict[cl] = chat_gpt_subcategory_generation(cl, sub_cat_count)
+        for key in cat_dict:
+            for sub_cat in cat_dict[key]:
+                r_dict.update(find_pertinent_data(sub_cat, key))
+    else:
+        for cl in class_list:
+            r_dict.update(find_pertinent_data(cl, cl))
+
+    return r_dict
+
+
+def save_to_json(f_name, class_list, subcategory_generation=False, sub_cat_count=10):
+    r_dict = all_classes(class_list, subcategory_generation, sub_cat_count)
+    with open(f_name, "w") as outfile:
         json.dump(r_dict, outfile, sort_keys=True, indent=4)
 
 
 
 
-test_file_creation("Cats", "Cats")
 
 
 
