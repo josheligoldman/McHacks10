@@ -41,21 +41,6 @@ def get_origin_html(origin_link):
     # return requests.get(origin_link).text
 
 
-def download_image(download_path, url, file_name):
-    try:
-        image_content = requests.get(url).content
-        image_file = io.BytesIO(image_content)
-        image = Image.open(image_file)
-        file_path = download_path + "/" + file_name
-
-        with open(file_path, "wb") as f:
-            image.save(f, "JPEG")
-
-        print("SUCCESS")
-    except Exception as e:
-        print("FAILED -", e)
-
-
 # Create a block of text that is a segment of the full html file that contains the data for a single image
 def create_segmented_html_block(start_key, text, start_sentinel="{", end_sentinel="}", start_mod=2):
     start_key -= start_mod
