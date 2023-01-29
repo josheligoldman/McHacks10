@@ -264,7 +264,8 @@ def save_to_json(f_name, class_list, subcategory_generation=False, sub_cat_count
         json.dump(r_dict, outfile, sort_keys=True, indent=4)
 
 
-save_to_json("sample3.json", ["Cats", "Dogs"])
+if __name__ == '__main__':
+    save_to_json("sample3.json", ["Cats", "Dogs"])
 
 
 
